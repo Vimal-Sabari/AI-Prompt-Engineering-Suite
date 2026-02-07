@@ -1,179 +1,176 @@
-🌐 MULTILINGUAL PROMPT ENGINEERING TOOLKIT
+# 🌐 Multilingual Prompt Engineering Toolkit
 
-An interactive Python application designed to help users design, analyze, optimize, and evaluate prompts for Large Language Models (LLMs) using Google Gemini. It supports multilingual generation, NLP-based analysis, clustering, semantic search, and speech output through a menu-driven interface.
+A powerful, menu-driven Python application that helps users design, analyze, evaluate, and optimize prompts for Large Language Models (LLMs) using Google Gemini.  
+It supports multilingual generation, NLP-based clustering, semantic search, prompt scoring, and speech output.
 
-🚀 Built for AI enthusiasts, students, and researchers interested in Prompt Engineering.
+---
 
-✨ FEATURES
+## 🚀 Features
 
-✔ Multilingual Prompt Enhancement
-✔ Prompt Influence Analysis
-✔ Prompt Quality Scoring
-✔ Prompt Categorization (Clustering)
-✔ Multilingual Content Generation
-✔ Semantic Search using Embeddings
-✔ Toxicity and Safety Check
-✔ Named Entity Recognition (NER) Visualization
-✔ Prompt A/B Testing with AI Judge
-✔ Text-to-Speech Output
+✅ Multilingual Prompt Enhancement  
+✅ Prompt Influence Analysis  
+✅ Prompt Quality Scoring  
+✅ Prompt Categorization (Clustering)  
+✅ Multilingual Content Generation  
+✅ Semantic Search  
+✅ Toxicity & Safety Check  
+✅ Named Entity Recognition (NER) Visualization  
+✅ Prompt A/B Testing with AI Judge  
+✅ Text-to-Speech Output (Optional)
 
-🌍 Supported Languages
-English | Hindi | Tamil | Telugu | Malayalam | Kannada
+Supported Languages:
+- English
+- Hindi
+- Tamil
+- Telugu
+- Malayalam
+- Kannada
 
-🧠 TECHNOLOGIES USED
+---
 
-🐍 Python 3.x
-🤖 Google Gemini API
-📘 spaCy
-🔍 Transformers
-📊 scikit-learn
-📐 SciPy
-🔊 gTTS
-🔢 NumPy
+## 🧠 Technologies Used
 
-📁 PROJECT STRUCTURE
+- Python 3.x  
+- Google Gemini API  
+- spaCy (NER)  
+- Transformers (Optional)  
+- scikit-learn (Clustering)  
+- gTTS (Text-to-Speech)  
+- NumPy  
+- SciPy  
 
-Project Folder
-├── main.py
-├── README.txt
-└── requirements.txt
+---
 
-⚙️ INSTALLATION
+## 📂 Project Structure
 
-Step 1: Clone Repository
+project-folder/
+│
+├── main.py # Main application file
+├── README.md # Documentation
+└── requirements.txt # Dependencies (recommended)
 
-git clone https://github.com/Vimal-Sabari/AI-Prompt-Engineering-Suite.git
 
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-
-Step 2: Install Dependencies
-
+2️⃣ Install Dependencies
 pip install -r requirements.txt
-
-Or manually:
+Or install manually:
 
 pip install google-generativeai spacy transformers scikit-learn scipy gtts playsound numpy
-
-Step 3: Download spaCy Model (Optional)
-
+3️⃣ Download spaCy Model (Optional)
 python -m spacy download en_core_web_sm
+🔑 API Key Setup (Important)
+This project uses the Google Gemini API.
 
-🔑 API KEY SETUP
-
-This project uses Google Gemini API.
-
-Open main.py and replace:
+In main.py, replace:
 
 API_KEY_DIRECT = "YOUR_API_KEY_HERE"
+with your own API key:
 
-with your actual API key.
+API_KEY_DIRECT = "your_api_key_here"
+⚠️ Do NOT expose your real API key in public repositories.
+Use environment variables for production.
 
-⚠️ IMPORTANT: Never expose your real API key in public repositories.
-
-▶️ HOW TO RUN
-
+▶️ How to Run
 Run the application using:
 
 python main.py
+You will see an interactive menu:
 
-An interactive menu will appear on startup.
+1. Prompt Enhancement
+2. Explain Influence
+3. Score Prompt Quality
+4. Categorize Prompts
+5. Generate Content
+6. Semantic Search
+7. Toxicity Check
+8. NER Visualization
+9. Prompt A/B Tester
+10. Exit
+Select an option and follow the instructions.
 
-📋 MENU OPTIONS
+🧩 Functional Modules
+🔹 Prompt Enhancement
+Improves simple prompts into detailed, structured prompts.
 
-Prompt Enhancement
+🔹 Prompt Influence Analysis
+Explains how new elements affect output.
 
-Explain Influence & Modified Content
+🔹 Prompt Quality Scoring
+Rates prompt effectiveness using AI-based evaluation.
 
-Score Prompt Quality
+🔹 Prompt Categorization
+Groups similar prompts using embeddings and clustering.
 
-Categorize Prompts
+🔹 Semantic Search
+Finds similar prompts using cosine similarity.
 
-Generate Content
+🔹 NER Visualization
+Detects named entities and generates HTML visualization.
 
-Semantic Search
+🔹 Prompt A/B Testing
+Compares two prompts and selects the best using AI judgment.
 
-Toxicity Check
+🔹 Text-to-Speech
+Reads outputs aloud using gTTS.
 
-NER Visualization
-
-Prompt A/B Tester
-
-Exit
-
-🧩 FUNCTIONAL OVERVIEW
-
-📝 Prompt Enhancement
-Improves simple prompts into detailed prompts.
-
-🔍 Influence Analysis
-Explains how added constraints affect output.
-
-⭐ Prompt Scoring
-Evaluates prompt quality using AI.
-
-📊 Prompt Categorization
-Groups similar prompts using clustering.
-
-🔎 Semantic Search
-Finds related prompts using similarity.
-
-🏷️ NER Visualization
-Detects named entities and creates HTML output.
-
-⚔️ Prompt A/B Testing
-Compares two prompts and selects the best.
-
-🔊 Text-to-Speech
-Reads outputs aloud.
-
-📌 SAMPLE USAGE
-
-Select Language → Choose Feature → Enter Prompt → View Output
-
+📌 Example Usage
+Select Language → Choose Feature → Enter Prompt → Get Output
 Example:
 
-Enter Prompt: Write a story about AI
-Output: Multilingual generated response
+Enter Prompt: Write a story about a robot
+Output: Enhanced multilingual response
+🛠️ Optional Dependencies
+Some features require additional libraries:
 
-⚠️ LIMITATIONS
+Feature	Library
+NER	spaCy
+Clustering	scikit-learn
+Semantic Search	SciPy
+Speech	gTTS
+If missing, the program falls back safely.
 
-IndicNER model disabled
+⚠️ Known Limitations
+IndicNER model is disabled for stability.
 
-Internet required
+Requires stable internet for Gemini API.
 
-API quota limits
+API usage may incur costs.
 
-API key security needed
+Public repos should hide API keys.
 
-🚀 FUTURE ENHANCEMENTS
-
-Web Interface
-
-Mobile Application
+📈 Future Improvements
+Web Interface (Flask/React)
 
 User Authentication
 
 Cloud Deployment
 
-More Languages
+More Language Support
 
-Secure Key Storage
+API Key Encryption
 
-👨‍💻 AUTHOR
+Mobile App Integration
 
+👨‍💻 Author
 Vimal Sabari
+
 Computer Science Student
 AI & NLP Enthusiast
+Prompt Engineering Researcher
 
-📜 LICENSE
+📜 License
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute.
 
-MIT License
-Free to use, modify, and distribute.
+⭐ Support
+If you like this project, please ⭐ star the repository on GitHub!
 
-⭐ SUPPORT
-
-If you like this project, please give it a ⭐ on GitHub.
-
-For suggestions or issues, open an issue.
-
-Made with ❤️ for AI and Prompt Engineering
+For issues or suggestions, feel free to open an issue.
