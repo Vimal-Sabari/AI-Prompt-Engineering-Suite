@@ -6,16 +6,16 @@ An interactive Python application designed to help users design, analyze, optimi
 
 ✨ FEATURES
 
-✅ Multilingual Prompt Enhancement
-✅ Prompt Influence Analysis
-✅ Prompt Quality Scoring
-✅ Prompt Categorization (Clustering)
-✅ Multilingual Content Generation
-✅ Semantic Search using Embeddings
-✅ Toxicity and Safety Check
-✅ Named Entity Recognition (NER) Visualization
-✅ Prompt A/B Testing with AI Judge
-✅ Text-to-Speech Output
+✔ Multilingual Prompt Enhancement
+✔ Prompt Influence Analysis
+✔ Prompt Quality Scoring
+✔ Prompt Categorization (Clustering)
+✔ Multilingual Content Generation
+✔ Semantic Search using Embeddings
+✔ Toxicity and Safety Check
+✔ Named Entity Recognition (NER) Visualization
+✔ Prompt A/B Testing with AI Judge
+✔ Text-to-Speech Output
 
 🌍 Supported Languages
 English | Hindi | Tamil | Telugu | Malayalam | Kannada
@@ -40,13 +40,13 @@ Project Folder
 
 ⚙️ INSTALLATION
 
-🔹 Step 1: Clone Repository
+Step 1: Clone Repository
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Vimal-Sabari/AI-Prompt-Engineering-Suite.git
 
 cd your-repo-name
 
-🔹 Step 2: Install Dependencies
+Step 2: Install Dependencies
 
 pip install -r requirements.txt
 
@@ -54,7 +54,7 @@ Or manually:
 
 pip install google-generativeai spacy transformers scikit-learn scipy gtts playsound numpy
 
-🔹 Step 3: Download spaCy Model (Optional)
+Step 3: Download spaCy Model (Optional)
 
 python -m spacy download en_core_web_sm
 
@@ -76,25 +76,34 @@ Run the application using:
 
 python main.py
 
-You will see an interactive menu on startup.
+An interactive menu will appear on startup.
 
 📋 MENU OPTIONS
 
-1️⃣ Prompt Enhancement
-2️⃣ Explain Influence & Modified Content
-3️⃣ Score Prompt Quality
-4️⃣ Categorize Prompts
-5️⃣ Generate Content
-6️⃣ Semantic Search
-7️⃣ Toxicity Check
-8️⃣ NER Visualization
-9️⃣ Prompt A/B Tester
-🔟 Exit
+Prompt Enhancement
+
+Explain Influence & Modified Content
+
+Score Prompt Quality
+
+Categorize Prompts
+
+Generate Content
+
+Semantic Search
+
+Toxicity Check
+
+NER Visualization
+
+Prompt A/B Tester
+
+Exit
 
 🧩 FUNCTIONAL OVERVIEW
 
 📝 Prompt Enhancement
-Transforms simple prompts into detailed prompts.
+Improves simple prompts into detailed prompts.
 
 🔍 Influence Analysis
 Explains how added constraints affect output.
@@ -126,32 +135,29 @@ Example:
 Enter Prompt: Write a story about AI
 Output: Multilingual generated response
 
-🛠️ OPTIONAL DEPENDENCIES
-
-Some features need extra libraries.
-
-📘 NER → spaCy
-📊 Clustering → scikit-learn
-🔍 Search → SciPy
-🔊 Speech → gTTS
-
-If missing, fallback methods are used.
-
 ⚠️ LIMITATIONS
 
-❗ IndicNER model disabled
-❗ Internet required
-❗ API quota limits
-❗ API key security needed
+IndicNER model disabled
+
+Internet required
+
+API quota limits
+
+API key security needed
 
 🚀 FUTURE ENHANCEMENTS
 
-🌐 Web Interface
-📱 Mobile App
-👤 User Authentication
-☁️ Cloud Deployment
-🌍 More Languages
-🔐 Secure Key Storage
+Web Interface
+
+Mobile Application
+
+User Authentication
+
+Cloud Deployment
+
+More Languages
+
+Secure Key Storage
 
 👨‍💻 AUTHOR
 
